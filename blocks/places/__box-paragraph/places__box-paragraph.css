@@ -1,5 +1,5 @@
 .places__box-paragraph{
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 26px;
 }
