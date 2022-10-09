@@ -1,0 +1,19 @@
+.places__box-paragraph{
+    display: flex;    
+    flex-direction: column;
+    gap: 26px;
+}
+
+@media screen and (max-width: 768px) {
+.places__box-paragraph {
+    gap: 23px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.places__box-paragraph{
+    padding-left: 16px;
+    max-width: 288px;
+    gap: 25px;
+}
+}

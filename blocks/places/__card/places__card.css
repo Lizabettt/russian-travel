@@ -1,0 +1,36 @@
+.places__card{
+    padding-bottom: 80px;
+   
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-template-rows: min-content auto;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+.places__card{
+    column-gap: 34px;
+}
+}
+
+@media screen and (max-width: 768px) {
+.places__card{
+    padding-bottom: 73px;
+    column-gap: 28px;
+    row-gap: 48px;
+}
+}
+@media screen and (max-width: 670px) {
+.places__card{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+}
+
+@media screen and (max-width: 320px) {
+.places__card {
+    padding-bottom: 50px;
+}
+}

@@ -1,0 +1,20 @@
+.lead__polka{
+    margin-block: 0;
+    margin-inline: 0;
+    padding-top: 64px;
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+.lead__polka {
+    padding-top: 56px;
+    max-width: 928px;
+}
+}
+
+@media screen and (max-width: 670px) {
+.lead__polka {
+    padding-top: 40px;
+}
+}

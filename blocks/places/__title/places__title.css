@@ -1,0 +1,27 @@
+.places__title{
+    margin-block: 0;
+
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+}
+
+@media screen and (max-width: 768px) {
+.places__title{
+    font-size: 42px;
+    line-height: 110%;
+
+    letter-spacing: 0.8px;
+    /*по другому "коса" не переносится, 
+    т.е. не соответствует макетую*/
+}
+}
+
+@media screen and (max-width: 320px) {
+.places__title{
+    padding-left: 16px;
+
+    font-size: 32px;
+    line-height: 109%;
+}
+}

@@ -1,0 +1,10 @@
+.places__box-url{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 320px) {
+.places__box-url{
+    padding-left: 16px;
+}
+}

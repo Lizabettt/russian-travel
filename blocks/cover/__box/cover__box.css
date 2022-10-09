@@ -1,0 +1,18 @@
+.cover__box{
+    max-width: 560px;
+    margin: 0 auto;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    z-index: 1;
+}
+
+@media screen and (max-width: 320px) {
+.cover__box{
+    max-width: 288px;
+    gap: 16px;
+}
+}
