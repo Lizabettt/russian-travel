@@ -1,33 +1,30 @@
 .places{
     margin: 0 auto;
-    max-width: 984px;
-    padding: 86px 0 10px 0;/*92*/
+    padding: 86px 148px 10px 148px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
 .places{
-    max-width: 928px;
-    padding: 91px 0 10px 0;
+    padding: 91px 48px 10px 48px;
 }
 }
 
 @media screen and (max-width: 768px) {
 .places{
-    max-width: 720px;
-    padding-bottom: 15px;
+    padding: 91px 24px 15px 24px;
 }
 }
 
 @media screen and (max-width: 670px) {
 .places{
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 }
 
 @media screen and (max-width: 320px) {
 .places{
-    max-width: 320px;
-    padding-top: 64px;
+    padding: 64px 0 15px 0;
 }
 }

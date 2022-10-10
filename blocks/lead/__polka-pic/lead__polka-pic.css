@@ -1,31 +1,17 @@
 .lead__polka-pic{    
-    height: 615px;
     object-fit: cover;
     width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-.lead__polka-pic{    
-    height: 580px;
-}
-}
-
 @media screen and (max-width: 768px) {
 .lead__polka-pic{
-    width: 768px;
-    height: 480px;
+    max-width: 768px;
 }
 }
 
-@media screen and (max-width: 670px) {
-.lead__polka-pic{
-    width: 100%;
-}
-}
 @media screen and (max-width: 320px) {
        
 .lead__polka-pic{
     max-width: 320px;
-    height: 200px;
 }
 }
